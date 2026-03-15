@@ -470,9 +470,11 @@ window.addEventListener('scroll', () => {
 
     document.querySelectorAll('.day-btn').forEach(btn => {
         btn.classList.remove('active');
-        const isGuide = dayInfo.type === 'guide';
-        const label = isGuide ? 'Info' : `Day ${dayInfo.day}`;
-        if (btn.innerText.includes(label) && btn.innerText.includes(dayInfo.title.split('→')[0].substring(0, 10))) {
+        const dayId = btn.getAttribute('onclick')?.match(/day-([^']+)/)?.[1];
+        const dayInfo = itineraryData.find(d => d.day == currentDay);
+        const isGuide = dayInfo?.type === 'guide';
+        const label = isGuide ? 'Info' : `Day ${dayInfo?.day}`;
+        if (btn.innerText.includes(label) && btn.innerText.includes(dayInfo?.title.split('→')[0].substring(0, 10))) {
             btn.classList.add('active');
         }
     });
