@@ -140,7 +140,7 @@ const itineraryData = [
                 title: "Arrival in Rotterdam",
                 description: "Continue the drive to Rotterdam (40-50 mins). Check into accommodation near the center/river to easily walk to main sites the next day.",
                 tags: ["Transport", "Hotel"],
-                image: "./images/markthal-rotterdam.jpeg", /* Add market Rotterdam.jpeg to the images folder */
+                image: "./images/markthal-rotterdam.jpg", /* Add market Rotterdam.jpeg to the images folder */
                 route: "Utrecht → Rotterdam"
             }
         ]
@@ -231,7 +231,7 @@ const itineraryData = [
         day: 6,
         title: "Fly to Copenhagen & Nyhavn",
         description: "Change scenery as you fly to the Danish capital and settle into its iconic harbor district.",
-        heroImage: "https://images.unsplash.com/photo-1513622470522-26c314a85ce8?auto=format&fit=crop&w=1600&q=80",
+        heroImage: "./images/copenhagen-core.jpeg",
         items: [
             {
                 title: "Flight & Arrival",
@@ -303,7 +303,7 @@ const itineraryData = [
                 title: "Car Pick-up & Dragør",
                 description: "Pick up a rental car near your hotel. Drive 20 mins to Dragør, a traditional fishing village with yellow houses, red roofs, and cobbled streets. Stop for lunch.",
                 tags: ["Transport", "Attraction"],
-                image: "https://images.unsplash.com/photo-1550181512-eb7899d45e41?auto=format&fit=crop&w=800&q=80",
+                image: "./images/dragon.jpeg",
                 route: "Copenhagen → Dragør"
             },
             {
