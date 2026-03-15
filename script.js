@@ -9,7 +9,7 @@ const itineraryData = [
                 title: "Arrival & Transfer to Jordaan",
                 description: "Arrive mid‑afternoon at Schiphol. For comfort and ease with luggage, take a direct taxi to your hotel in Jordaan (approx €55–65, ~15 mins). Check in to Hotel Mercier, Hotel Hegra, or similar.",
                 tags: ["Transport", "Hotel"],
-                image: "./images/jordaan.jpeg", /* Add jordaan.jpeg to the images folder */
+                image: "./images/jordaan.jpg", /* Add jordaan.jpg to the images folder */
                 route: "Schiphol Airport → Jordaan"
             },
             {
@@ -120,6 +120,66 @@ const itineraryData = [
                 tags: ["Transport", "Hotel"],
                 image: "./images/rotterdam-2.jpeg", /* Add rotterdam-2.jpeg to the images folder */
                 route: "Rotterdam → Train → Schiphol"
+            }
+        ]
+    },
+    {
+        type: "guide",
+        day: "Guide",
+        title: "Copenhagen Essentials",
+        description: "A curated list of must-visit places, delicious eats, and unique shopping experiences.",
+        heroImage: "https://images.unsplash.com/photo-1544468266-6a8948003cd7?auto=format&fit=crop&w=1600&q=80",
+        categories: [
+            {
+                name: "Places of Interest",
+                icon: "🏰",
+                items: [
+                    { title: "Rosenborg Castle", desc: "Royal hermitage with the crown jewels", mustVisit: true },
+                    { title: "Nyhavn", desc: "Iconic colorful harbor and historic buildings", mustVisit: true },
+                    { title: "The Little Mermaid", desc: "Classic statue best seen by boat", mustVisit: true },
+                    { title: "Canal Tour", desc: "Essential way to see the city from the water", mustVisit: true },
+                    { title: "Tivoli Gardens", desc: "Magical amusement park in the heart of the city", mustVisit: true },
+                    { title: "Amalienborg Palace", desc: "Changing of the guard at 12:00 PM", mustVisit: true },
+                    { title: "Design Museum", desc: "Showcasing Danish and international design", mustVisit: true },
+                    { title: "Ny Carlsberg Glyptotek", desc: "Museum founded by the Carlberg beer family", mustVisit: false },
+                    { title: "Christiansborg Palace", desc: "Seat of the Danish Parliament", mustVisit: false },
+                    { title: "The Marble Church", desc: "Stunning dome architecture", mustVisit: false },
+                    { title: "Glyptoteket", desc: "Beautiful sculptures and art", mustVisit: false }
+                ]
+            },
+            {
+                name: "Restaurants",
+                icon: "🍽️",
+                items: [
+                    { title: "Kødbyens Fiskebar", desc: "Seafood & sourdough in the Meatpacking District", mustVisit: true },
+                    { title: "Marv & Ben", desc: "Modern Nordic Michelin-rated fine dining", mustVisit: false },
+                    { title: "Høst (Nørreport)", desc: "Seasonal Nordic multi-course menus", mustVisit: false },
+                    { title: "Popl Burger", desc: "Noma-affiliated casual fine dining burgers", mustVisit: false },
+                    { title: "Dop", desc: "Organic gourmet street food sausages", mustVisit: false },
+                    { title: "Palazzo Diner", desc: "Excellent pasta and Italian vibes", mustVisit: false },
+                    { title: "Duo", desc: "Cozy Italian restaurant", mustVisit: false }
+                ]
+            },
+            {
+                name: "Cafes",
+                icon: "☕",
+                items: [
+                    { title: "Apollo Bar", desc: "Chic cafe with incredible fresh bread", mustVisit: true },
+                    { title: "Coffee Collective", desc: "World-class coffee roastery", mustVisit: false },
+                    { title: "Buka", desc: "Amazing croissants with unique fillings", mustVisit: false },
+                    { title: "Apotek 57", desc: "Minimalist spot for waffles and seasonal eats", mustVisit: false },
+                    { title: "April Coffee", desc: "Minimalist, high-end roasting studio", mustVisit: false }
+                ]
+            },
+            {
+                name: "Shopping",
+                icon: "🛍️",
+                items: [
+                    { title: "Torvehallerne Market", desc: "Bustling food hall and gift stalls (JJ Market vibes)", mustVisit: false },
+                    { title: "Hay House", desc: "Contemporary Danish furniture and accessories", mustVisit: false },
+                    { title: "Poster & Frame", desc: "Beautiful posters and cards (Kongens Nytorv)", mustVisit: false },
+                    { title: "Studio Arhoj", desc: "Colorful hand-casted ceramics and glass", mustVisit: false }
+                ]
             }
         ]
     },
@@ -256,8 +316,8 @@ itineraryData.forEach(dayInfo => {
     const btn = document.createElement('button');
     btn.className = 'day-btn';
     btn.innerHTML = `
-        <span class="day-label">Day ${dayInfo.day}</span>
-        <span class="date-label">${dayInfo.title.split('→')[0].substring(0, 15)}...</span>
+        <span class="day-label">${dayInfo.day === 'Guide' ? 'Info' : 'Day ' + dayInfo.day}</span>
+        <span class="date-label">${dayInfo.title.split('→')[0].substring(0, 15)}${dayInfo.title.length > 15 ? '...' : ''}</span>
     `;
     btn.onclick = () => {
         const target = document.getElementById(`day-${dayInfo.day}`);
@@ -274,6 +334,40 @@ function renderAllDays() {
     let html = '';
 
     itineraryData.forEach(data => {
+        if (data.type === 'guide') {
+            let categoriesHtml = data.categories.map(cat => `
+                <div class="guide-category">
+                    <h3><span class="category-icon">${cat.icon}</span> ${cat.name}</h3>
+                    <ul class="guide-list">
+                        ${cat.items.map(item => `
+                            <li class="guide-item">
+                                <div class="guide-item-title">
+                                    ${item.title}
+                                    ${item.mustVisit ? '<span class="must-visit-badge">Must Visit</span>' : ''}
+                                </div>
+                                <div class="guide-item-desc">${item.desc}</div>
+                            </li>
+                        `).join('')}
+                    </ul>
+                </div>
+            `).join('');
+
+            html += `
+            <div id="day-${data.day}" class="day-section fade-in">
+                <div class="day-header" style="background-image: linear-gradient(to right, rgba(230,240,255,0.95), rgba(230,240,255,0.8)), url('${data.heroImage}'); background-size: cover; background-position: center;">
+                    <h2>${data.title}</h2>
+                    <p>${data.description}</p>
+                </div>
+                <div class="day-body">
+                    <div class="guide-container">
+                        ${categoriesHtml}
+                    </div>
+                </div>
+            </div>
+            `;
+            return;
+        }
+
         html += `
         <div id="day-${data.day}" class="day-section fade-in">
             <div class="day-header" style="background-image: linear-gradient(to right, rgba(255,255,255,0.95), rgba(255,255,255,0.8)), url('${data.heroImage}'); background-size: cover; background-position: center;">
@@ -332,7 +426,8 @@ window.addEventListener('scroll', () => {
 
     document.querySelectorAll('.day-btn').forEach(btn => {
         btn.classList.remove('active');
-        if (btn.innerHTML.includes(`Day ${currentDay}`)) {
+        const label = dayInfo.day === 'Guide' ? 'Info' : `Day ${dayInfo.day}`;
+        if (btn.innerHTML.includes(label)) {
             btn.classList.add('active');
         }
     });
