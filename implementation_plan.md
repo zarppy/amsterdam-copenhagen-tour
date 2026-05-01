@@ -13,11 +13,12 @@
 ## 4. Accommodation Suggestions (3-4 Star)
 | Location | Recommendation | Type | Rationale |
 |----------|----------------|------|-----------|
-| **Amsterdam** | **Linden Hotel** (Jordaan) | 3-star Boutique | Historic charm, quiet area. |
-| **Utrecht** | **Eye Hotel** | 4-star | Architectural gem, central. |
+| **Amsterdam** | **Ruby Emma Hotel** | 4-star | Modern, high-tech, near Spaklerweg. |
+| **Nijkerk** | **Hotel De Roode Schuur** | 4-star | Designer countryside stay near Utrecht. |
 | **Brussels** | **Adagio Grand Place** | 4-star | Aparthotel with kitchen (Family). |
-| **Ardennes** | **Château de Namur** | Estate | Scenic countryside experience. |
+| **Namur/Dinant**| **Château de Namur** | Estate | Scenic countryside experience. |
 | **Bruges** | **Grand Hotel Casselbergh** | 4-star | Prime medieval location. |
+| **Antwerp** | **Hotel Franq** | 4-star | Boutique charm in city center. |
 
 ---
 
@@ -25,11 +26,11 @@
 
 | Field | Detail |
 |-------|--------|
-| **Departure** | Melbourne (MEL) → Brussels (BRU) — Monday, 28 September 2026 |
-| **Return** | Brussels (BRU) → Melbourne (MEL) — Thursday, 8 October 2026 (leave EU) |
-| **Duration** | 11 nights / 12 days (arrives BRU ~29 Sep due to ~24–26 hr travel) |
-| **Countries** | Netherlands (Amsterdam + day-trips) · Belgium (Brussels, Ghent, Bruges, Antwerp + countryside) |
-| **Transport** | Rental car (picked up ~Day 2–3 for NL countryside), retained into Belgium |
+| **Departure** | Melbourne (MEL) → Bangkok (BKK) [TG466] → Amsterdam (AMS) [TG936] — 27-28 September 2026 |
+| **Return** | Amsterdam (AMS) → Melbourne (MEL) — Thursday, 8 October 2026 (midday flight) |
+| **Duration** | 11 nights / 12 days |
+| **Countries** | Netherlands (Amsterdam, Zaandam, Giethoorn, Utrecht, Rotterdam) · Belgium (Brussels, Namur, Dinant, Ghent, Bruges, Antwerp) |
+| **Transport** | Rental car (picked up Day 4 for countryside loop), returned in Amsterdam Day 9. |
 | **Client Profile** | Fast-paced, disciplined; loves architecture, Belgian chocolate, scenery, EU countryside |
 
 > [!IMPORTANT]
@@ -115,16 +116,18 @@ The new site will adopt the **Shanghai visual format** as the primary structure,
 
 | Day | Date | Title | Key Activities |
 |-----|------|-------|----------------|
-| **1** | 29 Sep (Tue) | Arrival AMS | 06:00 Land Schiphol → Jordaan check-in. 18:00 Twilight walk. |
-| **2** | 30 Sep (Wed) | AMS Culture | 08:30 Rijksmuseum. 20:00 Night silhouette canal belt. |
-| **3** | 1 Oct (Thu) | Giethoorn | 08:00 **Rent Car (AMS)**. 10:30 Giethoorn (P1 Parking). Stay Utrecht. |
-| **4** | 2 Oct (Fri) | Rotterdam/BE | 09:00 Rotterdam Markthal. 20:00 Grand Place Night lights. |
-| **5** | 3 Oct (Sat) | Brussels Hub | 06:30 Sunrise Atomium. 19:30 Mont des Arts Silhouette. |
-| **6** | 4 Oct (Sun) | Meuse Valley | 09:00 Namur Citadel. 14:00 Dinant Icons. 20:00 Night reflections. |
-| **7** | 5 Oct (Mon) | Ghent/Bruges | 08:30 Ghent (Graslei). 20:30 Bruges Night Fairytale. |
-| **8** | 6 Oct (Tue) | Bruges/Antwerp | 05:45 Dawn Rozenhoedkaai. 11:00 Antwerp Depth (MAS/Rubens). Stay Antwerp. |
-| **9** | 7 Oct (Wed) | Antwerp/AMS | 09:00 Antwerp Station. 14:00 **Drive to AMS**. 19:00 Return Car. Stay AMS. |
-| **10** | 8 Oct (Thu) | Departure | 09:00 Breakfast. 10:00 Schiphol. **12:00 Midday Flight MEL**. |
+| **0** | 27 Sep (Sun) | Departure MEL | 13:30 Flight TG466 to BKK. Stay Port Canary Airport Hotel. |
+| **1** | 28 Sep (Mon) | Arrival AMS | 12:40 Land AMS. Ruby Emma Check-in. Jordaan Pit Stops (Gifu Ramen). |
+| **2** | 29 Sep (Tue) | Zaandam & Damrak | Morning: Zaandam (Iconic Station, Windmills). Afternoon: Damrak walk. |
+| **3** | 30 Sep (Wed) | Museum Morning | Rijksmuseum & Van Gogh. Hortus Botanicus. Evening Canal Boat. |
+| **4** | 1 Oct (Thu) | Giethoorn Loop | 08:00 **Rent Car (AMS)**. Giethoorn (P1). Zwolle. Stay Nijkerk. |
+| **5** | 2 Oct (Fri) | Rotterdam/BE | Markthal. Drive to Brussels. Neuhaus Chocolate. Stay Brussels. |
+| **6** | 3 Oct (Sat) | Brussels Hub | Sunrise Atomium. Maison Dandoy. Frites Atelier. Stay Brussels. |
+| **7** | 4 Oct (Sun) | Meuse Valley | Namur Citadel. Dinant Icons. Night reflections. Stay Namur/Dinant. |
+| **8** | 5 Oct (Mon) | Ghent/Bruges | Ghent (Le Pain Quotidien). Bruges (Old Chocolate House). Stay Bruges. |
+| **9** | 6 Oct (Tue) | Bruges/Antwerp | Dawn Rozenhoedkaai. Minnewater. Antwerp Station. Stay Antwerp. |
+| **10** | 7 Oct (Wed) | AMS Return | Morning Antwerp. 14:00 Drive to AMS. 19:00 Return Car. Stay AMS. |
+| **11** | 8 Oct (Thu) | Departure | 12:00 Midday Flight MEL from Schiphol. |
 
 ---
 

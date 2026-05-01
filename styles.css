@@ -269,10 +269,10 @@ nav a:hover, nav a.active {
     margin-top: 5px;
 }
 
-.badge-attraction { background: #fee2e2; color: #991b1b; }
-.badge-food { background: #fef3c7; color: #92400e; }
-.badge-transport { background: #e0f2fe; color: #075985; }
-.badge-hotel { background: #f1f5f9; color: #475569; }
+.badge-attraction { background: #fee2e2; color: #991b1b; } /* Red */
+.badge-food { background: #dcfce7; color: #166534; }       /* Green */
+.badge-transport { background: #e0f2fe; color: #075985; }  /* Blue */
+.badge-hotel { background: #fef3c7; color: #92400e; }      /* Gold */
 
 /* Guide / Info Section */
 .info-grid {
