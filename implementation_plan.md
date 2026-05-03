@@ -13,12 +13,12 @@
 ## 4. Accommodation Suggestions (3-4 Star)
 | Location | Recommendation | Type | Rationale |
 |----------|----------------|------|-----------|
-| **Amsterdam** | **Ruby Emma Hotel** | 4-star | Modern, high-tech, near Spaklerweg. |
-| **Nijkerk** | **Hotel De Roode Schuur** | 4-star | Designer countryside stay near Utrecht. |
-| **Brussels** | **Adagio Grand Place** | 4-star | Aparthotel with kitchen (Family). |
-| **Namur/Dinant**| **Château de Namur** | Estate | Scenic countryside experience. |
-| **Bruges** | **Grand Hotel Casselbergh** | 4-star | Prime medieval location. |
-| **Antwerp** | **Hotel Franq** | 4-star | Boutique charm in city center. |
+| **Amsterdam** | **Ruby Emma Hotel** | 4-star | Modern, near Spaklerweg. (3 Nights) |
+| **Nijkerk** | **Hotel De Roode Schuur** | 4-star | Designer stay for Giethoorn loop. (1 Night) |
+| **Brussels** | **Hotel Avenue Louise** | 4-star | Classic Louise district stay. (2 Nights) |
+| **Ghent** | **Castelnou Aparthotel** | 4-star | Spacious, near historic center. (1 Night) |
+| **Bruges** | **Hotel Bourgoensch Hof** | 3-star | Waterfront medieval heart. (2 Nights) |
+| **Antwerp** | **Holiday Inn Express** | 3-star | Modern, efficient city access. (1 Night) |
 
 ---
 
@@ -117,17 +117,17 @@ The new site will adopt the **Shanghai visual format** as the primary structure,
 | Day | Date | Title | Key Activities |
 |-----|------|-------|----------------|
 | **0** | 27 Sep (Sun) | Departure MEL | 13:30 Flight TG466 to BKK. Stay Port Canary Airport Hotel. |
-| **1** | 28 Sep (Mon) | Arrival AMS | 12:40 Land AMS. Ruby Emma Check-in. Jordaan Pit Stops (Gifu Ramen). |
-| **2** | 29 Sep (Tue) | Zaandam & Damrak | Morning: Zaandam (Iconic Station, Windmills). Afternoon: Damrak walk. |
-| **3** | 30 Sep (Wed) | Museum Morning | Rijksmuseum & Van Gogh. Hortus Botanicus. Evening Canal Boat. |
+| **1** | 28 Sep (Mon) | Arrival AMS | 12:40 Land AMS. Ruby Emma Check-in. Jordaan Pit Stops. |
+| **2** | 29 Sep (Tue) | Zaandam & Damrak | Morning: Zaandam Station/Windmills. Afternoon: Damrak houses. |
+| **3** | 30 Sep (Wed) | Museum Morning | Rijksmuseum & Van Gogh. Hortus Botanicus. Canal Boat. |
 | **4** | 1 Oct (Thu) | Giethoorn Loop | 08:00 **Rent Car (AMS)**. Giethoorn (P1). Zwolle. Stay Nijkerk. |
-| **5** | 2 Oct (Fri) | Rotterdam/BE | Markthal. Drive to Brussels. Neuhaus Chocolate. Stay Brussels. |
-| **6** | 3 Oct (Sat) | Brussels Hub | Sunrise Atomium. Maison Dandoy. Frites Atelier. Stay Brussels. |
-| **7** | 4 Oct (Sun) | Meuse Valley | Namur Citadel. Dinant Icons. Night reflections. Stay Namur/Dinant. |
-| **8** | 5 Oct (Mon) | Ghent/Bruges | Ghent (Le Pain Quotidien). Bruges (Old Chocolate House). Stay Bruges. |
-| **9** | 6 Oct (Tue) | Bruges/Antwerp | Dawn Rozenhoedkaai. Minnewater. Antwerp Station. Stay Antwerp. |
-| **10** | 7 Oct (Wed) | AMS Return | Morning Antwerp. 14:00 Drive to AMS. 19:00 Return Car. Stay AMS. |
-| **11** | 8 Oct (Thu) | Departure | 12:00 Midday Flight MEL from Schiphol. |
+| **5** | 2 Oct (Fri) | Architecture Sprint | Rotterdam (Markthal) -> **The Hague (Binnenhof)** -> Brussels. |
+| **6** | 3 Oct (Sat) | Brussels Deep Dive | Atomium morning. Maison Dandoy. Frites Atelier. Stay Brussels. |
+| **7** | 4 Oct (Sun) | Ghent Charm | Drive to Ghent. Graslei water reflection. Stay Ghent. |
+| **8** | 5 Oct (Mon) | Bruges Arrival | Drive to Bruges. Old Chocolate House. Stay Bruges. |
+| **9** | 6 Oct (Tue) | Bruges Immersion | Minnewater Lake. Lover's Bridge. Canal exploration. Stay Bruges. |
+| **10** | 7 Oct (Wed) | Antwerp Station | Morning Bruges. 14:00 Drive to Antwerp. Station visit. Stay Antwerp. |
+| **11** | 8 Oct (Thu) | AMS Return | 10:00 Drive to AMS. Return Car. Final shopping. 21:40 Flight BR76. |
 
 ---
 
