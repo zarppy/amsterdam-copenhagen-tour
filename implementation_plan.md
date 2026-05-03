@@ -14,7 +14,7 @@
 | Location | Recommendation | Type | Rationale |
 |----------|----------------|------|-----------|
 | **Amsterdam** | **Ruby Emma Hotel** | 4-star | Modern, near Spaklerweg. (3 Nights) |
-| **Nijkerk** | **Hotel De Roode Schuur** | 4-star | Designer stay for Giethoorn loop. (1 Night) |
+| **Utrecht/Bunnik** | **Postillion Hotel** | 4-star | Efficient stay near motorway. (1 Night) |
 | **Brussels** | **Hotel Avenue Louise** | 4-star | Classic Louise district stay. (2 Nights) |
 | **Ghent** | **Castelnou Aparthotel** | 4-star | Spacious, near historic center. (1 Night) |
 | **Bruges** | **Hotel Bourgoensch Hof** | 3-star | Waterfront medieval heart. (2 Nights) |
@@ -120,8 +120,8 @@ The new site will adopt the **Shanghai visual format** as the primary structure,
 | **1** | 28 Sep (Mon) | Arrival AMS | 12:40 Land AMS. Ruby Emma Check-in. Jordaan Pit Stops. |
 | **2** | 29 Sep (Tue) | Zaandam & Damrak | Morning: Zaandam Station/Windmills. Afternoon: Damrak houses. |
 | **3** | 30 Sep (Wed) | Museum Morning | Rijksmuseum & Van Gogh. Hortus Botanicus. Canal Boat. |
-| **4** | 1 Oct (Thu) | Giethoorn Loop | 08:00 **Rent Car (AMS)**. Giethoorn (P1). Zwolle. Stay Nijkerk. |
-| **5** | 2 Oct (Fri) | Architecture Sprint | Rotterdam (Markthal) -> **The Hague (Binnenhof)** -> Brussels. |
+| **4** | 1 Oct (Thu) | Giethoorn Loop | 08:00 Rent Car. Giethoorn. Stay Postillion Bunnik. |
+| **5** | 2 Oct (Fri) | Architecture Sprint | Rotterdam -> The Hague -> Brussels (Hotel Avenue Louise). |
 | **6** | 3 Oct (Sat) | Brussels Deep Dive | Atomium morning. Maison Dandoy. Frites Atelier. Stay Brussels. |
 | **7** | 4 Oct (Sun) | Ghent Charm | Drive to Ghent. Graslei water reflection. Stay Ghent. |
 | **8** | 5 Oct (Mon) | Bruges Arrival | Drive to Bruges. Old Chocolate House. Stay Bruges. |
