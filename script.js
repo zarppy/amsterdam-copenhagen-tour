@@ -24,19 +24,35 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', updateActiveLink);
     updateActiveLink();
 
-    // 2. Tour Data (Amsterdam-Belgium Rerouted Loop with Eateries)
+    // 2. Tour Data (Complete Amsterdam-Belgium Loop)
     const tourLocations = [
         { day: 1, name: "Schiphol Airport", lat: 52.3105, lng: 4.7683, type: "transport" },
         { day: 1, name: "Ruby Emma Hotel", lat: 52.3414, lng: 4.9192, type: "hotel" },
         { day: 1, name: "Gifu Ramen Bar", lat: 52.3693, lng: 4.8805, type: "food" },
+        { day: 1, name: "Van Stapele Koekmakerij", lat: 52.3703, lng: 4.8876, type: "food" },
+        { day: 1, name: "Fabel Friet", lat: 52.3688, lng: 4.8841, type: "food" },
+        { day: 1, name: "Albert Heijn", lat: 52.3741, lng: 4.8843, type: "food" },
+        { day: 1, name: "Chun Amsterdam", lat: 52.3693, lng: 4.8837, type: "food" },
 
         { day: 2, name: "Zaandam Station", lat: 52.4414, lng: 4.8159, type: "attraction" },
         { day: 2, name: "Zaanse Schans", lat: 52.4731, lng: 4.8210, type: "attraction" },
+        { day: 2, name: "Damrak (Dancing Houses)", lat: 52.3762, lng: 4.8953, type: "attraction" },
+        { day: 2, name: "Rembrandt Corner", lat: 52.3653, lng: 4.8955, type: "food" },
+        { day: 2, name: "Febo Damrak", lat: 52.3755, lng: 4.8973, type: "food" },
+        { day: 2, name: "Pancakes Amsterdam", lat: 52.3805, lng: 4.9000, type: "food" },
 
-        { day: 3, name: "Museumplein", lat: 52.3582, lng: 4.8812, type: "attraction" },
+        { day: 3, name: "Vondelpark", lat: 52.3580, lng: 4.8686, type: "attraction" },
+        { day: 3, name: "Van Gogh Museum", lat: 52.3582, lng: 4.8812, type: "attraction" },
+        { day: 3, name: "Rijksmuseum", lat: 52.3600, lng: 4.8852, type: "attraction" },
         { day: 3, name: "Hortus Botanicus", lat: 52.3667, lng: 4.9083, type: "attraction" },
+        { day: 3, name: "nNea Pizza", lat: 52.3664, lng: 4.8711, type: "food" },
+        { day: 3, name: "Locals Brunch", lat: 52.3564, lng: 4.8966, type: "food" },
+        { day: 3, name: "Lombardo's Hamburger", lat: 52.3638, lng: 4.8863, type: "food" },
+        { day: 3, name: "Bagel Boy", lat: 52.3614, lng: 4.8866, type: "food" },
+        { day: 3, name: "Lera Cafe Matcha", lat: 52.3533, lng: 4.8924, type: "food" },
 
         { day: 4, name: "Giethoorn P1", lat: 52.7401, lng: 6.0792, type: "transport" },
+        { day: 4, name: "Firma Stroop (Utrecht)", lat: 52.0934, lng: 5.1147, type: "food" },
         { day: 4, name: "Postillion Utrecht Bunnik", lat: 52.0610, lng: 5.2051, type: "hotel" },
 
         { day: 5, name: "Rotterdam Markthal", lat: 51.9179, lng: 4.4852, type: "attraction" },
@@ -74,7 +90,10 @@ document.addEventListener('DOMContentLoaded', () => {
         { day: 10, name: "Antwerp Station", lat: 51.2172, lng: 4.4211, type: "attraction" },
         { day: 10, name: "Holiday Inn Express Antwerp", lat: 51.2185, lng: 4.4146, type: "hotel" },
 
-        { day: 11, name: "Schiphol (Departure)", lat: 52.3105, lng: 4.7683, type: "transport" }
+        { day: 11, name: "Schiphol (Departure)", lat: 52.3105, lng: 4.7683, type: "transport" },
+        { day: 11, name: "Monty's Toasties", lat: 52.3776, lng: 4.8837, type: "food" },
+        { day: 11, name: "Lourens Crookie", lat: 52.3650, lng: 4.8900, type: "food" },
+        { day: 11, name: "Harry's Amsterdam", lat: 52.3725, lng: 4.8950, type: "food" }
     ];
 
     // 3. Icons (Color-Coded)
